@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Card</title>
+    <link rel="icon" size="16x16" type="image/x-icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="../css/reset.css?v=1">
+    <link rel="stylesheet" href="../css/main.css?v=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body class="overflow">
+    <div class="cursor"></div>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"> -->
+    <button class="elevator-button" title="Go to top" id="myBtn">
+        <svg class="scroll-top-btn cursor-outline" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path>Back To Top</svg>
+    </button>
+    <header class="header">
+        <div class="site-container">
+            <div class="mobile-nav-menu">
+                <a href="/index.html">
+                    <img class="brand-logo" src="/images/logo.svg" alt="brand logo">
+                </a>
+                <div class="menu-open">
+                    <a href="#" class="js-menu-open"><ion-icon name="menu-outline"></ion-icon></a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <div class="menu-close">
+                    <a href="#" class="js-menu-close"><ion-icon  name="close-outline"></ion-icon>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="menu-item"><a href="/target-discipline.html" class="nav-link cursor-outline">Work</a></li>
+                    <li class="menu-item"><a href="/about.html" class="nav-link cursor-outline">About</a></li>
+                    <li class="menu-item"><a href="https://drive.google.com/file/d/115zDBvSzj9OVSPx1ku-cQYBhRURoMJBb/view?usp=sharing" class="nav-link cursor-outline" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="banner" class="banner-section">
+            <div class="container">
+                <div class="grid border-p-60 project-title">
+                    <div class="col-7-lg col-7-md col-4-sm">
+                        <h1 id="artifact-intro-title" class="h3">Compass Card</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="lazy banner-compass-card bg-centre" data-bg="../images/banner-compass.png"></div> -->
+            <div>
+                <img id="artifact-banner" class="lazy banner-img" src="../images/main-banner-compass-lazy.png" data-src="../images/main-banner-compass.png" alt="compass card banner image">
+            </div>
+        </section>
+        <div class="sidebar-nav">
+            <nav class="section-navv">
+                <ul>
+                    <li class="section-links"><a href="#sec1" class="tab">Research</a></li>
+                    <li class="section-links"><a href="#sec2" class="tab">Analyze</a></li>
+                    <li class="section-links"><a href="#sec3" class="tab">Ideation</a></li>
+                    <li class="section-links"><a href="#sec4" class="tab">Design</a></li>
+                    <li class="section-links"><a href="#sec5" class="tab">Validate</a></li>
+                </ul>
+                <div class="indicator">
+                    <div class="indicator-line"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+            <section class="overview-section">
+                <div class="container">
+                    <div class="grid">
+                        <div class="overview-col col-7-lg col-7-md col-4-sm">
+                            <h2 class="h4 heading-p-32">Overview</h2>
+                            <p class="p">My goal of this project was to enhance the transit experience for users in Metro Vancouver by creating a Compass Card app. Currently there is no smartphone app available for Compass Cards, and this project is aim to address that issue, offering more user-friendly and accessible solution for those who use public transit in Metro Vancouver.</p>
+                        </div>
+                        <div class="col-detail-sm">
+                            <ul class="project-detail">
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Role</h5>
+                                    <p>UI/UX Designer,</p>
+                                    <p>Visual Designer</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Duration</h5>
+                                    <p>3 Weeks</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Tool</h5>
+                                    <p>Figma</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                            <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/proto/RQTuDjznp8qcq9oUZ5yXNB/compass-card?type=design&node-id=697-3713&t=3zNj28NAvuqn0XuJ-1&scaling=scale-down&page-id=675%3A3006&starting-point-node-id=675%3A3368&mode=design">
+                                <div class="btn-txt">View Final Prototype</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-6-sm sm-heading border-p-sm">PROBLEM</h2>
+                        <div class="padding-b-128 col-7-lg col-9-md col-6-sm">
+                            <p id="scroll-section" class="h5 heading-p-32 p-statement">Transit users in Vancouver are currently experiencing <span class="is-blue">inconvenience</span> and <span class="is-blue">frustration</span> due to the lack of a Compass Card mobile app.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class=grid>
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">Solution</h2>
+                        <!-- <div class="iteration col-6-lg col-6-md col-4-sm is-centered" id="scroll-section">
+                            <video loop autoplay muted playsinline>
+                                <source src="../images/compass-solution2.mov" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col-6-lg col-6-md col-4-sm solution">
+                            <div>
+                                <h3 class="sm-heading is-blue">Solution 1</h3>
+                                <h2 class="h4 padding-b-32">Load Card</h2>
+                                <p class="p">
+                                    Reload your Compass Card with funds from your bank account or credit/debit card, making it easy to keep your card topped up and ready to use.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6-lg col-6-md col-4-sm solution reverse">
+                            <div>
+                                <h3 class="sm-heading is-blue">Solution 2</h3>
+                                <h2 class="h4 padding-b-32">Tap Pay</h2>
+                                <p class="p">
+                                    Quickly and easily pay for your transit fare by simply tapping your Compass Card on your smartphone.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="iteration col-6-lg col-6-md col-4-sm is-centered" id="scroll-section">
+                            <video loop autoplay muted playsinline width="500">
+                                <source src="../images/compass-solution1.mov" type="video/mp4">
+                            </video>
+                        </div> -->
+                        <div class="iteration col-6-lg col-6-md col-4-sm is-centered" id="scroll-section">
+                            <video loop autoplay muted playsinline>
+                                <source src="../images/compass-solution(tap).mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col-6-lg col-6-md col-4-sm solution">
+                            <div>
+                                <h3 class="sm-heading is-blue">Solution 1</h3>
+                                <h2 class="h4 padding-b-32">Tap Pay</h2>
+                                <p class="p">
+                                    Quickly and easily pay for your transit fare by simply tapping your Compass Card on your smartphone.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6-lg col-6-md col-4-sm solution reverse">
+                            <div>
+                                <h3 class="sm-heading is-blue">Solution 2</h3>
+                                <h2 class="h4 padding-b-32">Load Card</h2>
+                                <p class="p">
+                                    Reload your Compass Card with funds from your bank account or credit/debit card, making it easy to keep your card topped up and ready to use.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="iteration col-6-lg col-6-md col-4-sm is-centered" id="scroll-section">
+                            <video loop autoplay muted playsinline width="200">
+                                <source src="../images/compass-solution(load).mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- <div class="iteration col-6-lg col-6-md col-4-sm is-centered" id="scroll-section">
+                            <video loop autoplay muted playsinline width="500">
+                                <source src="../images/compass-solution(map).mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col-6-lg col-6-md col-4-sm solution">
+                            <div>
+                                <h3 class="sm-heading is-blue">Solution 3</h3>
+                                <h2 class="h4 padding-b-32">Real-time Trip Planner</h2>
+                                <p class="p">
+                                    Reload your Compass Card with funds from your bank account or credit/debit card, making it easy to keep your card topped up and ready to use.
+                                </p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div> 
+            </section> 
+            <section id="sec1" class="section">
+                <div class="container">
+                    <div class="grid padding-b-128">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">01 RESEARCH</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">User Research<br>& Insights</h3>
+                            <p class="p">The online user survey was conducted among transit users in Metro Vancouver to find out the inconveniences of using the physical Compass Card. Of the participants, 85.7% were in the age group of 15-30. This user survey helped me uncover the pain points and needs of Compass Card users.</p>
+                        </div>
+                    </div>
+                    <div class="grid padding-b-128" id="scroll-section">
+                        <div class="insight-b col-4-lg col-6-md col-4-sm">
+                            <h4 class="number">01</h4>  
+                            <p class="insight-p">90% of users answered that carrying the physical Compass Card and constantly taking it in and out of their wallet is their biggest frustration.
+                            </p>
+                        </div>
+                        <div class="insight-b col-4-lg col-6-md col-4-sm">
+                            <h4 class="number">02</h4>  
+                            <p class="insight-p">81% of users preferred loading their Compass cards online rather than using vending machines.
+                            </p>
+                        </div>
+                        <div class="insight-b col-4-lg col-6-md col-4-sm">
+                            <h4 class="number">03</h4>  
+                            <p class="insight-p">Users have to manually visit the transit web browser or use other transit resources to plan their route. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec2" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">02 ANAYLZE</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Defining<br>Target Audience</h3>
+                            <p class="p">I defined a brief target user group and identified their pain points and needs based on my research. Using a user journey map, I was able to pinpoint the pain points users experienced when using a compass card and the transit system. This allowed me to develop a solution that addressed their needs.</p>
+                        </div>
+                        <div id="scroll-section" class="persona-box col-12-lg col-12-md col-4-sm">
+                            <div class="col-4-sm">
+                                <div class="img-box">
+                                    <img src="/images/persona-1.png" alt="emoji">
+                                </div>
+                                <div class="persona-info">
+                                    <h5 class="persona-title">JASMINE, 30</h5>
+                                    <h6 class="job gray">Office Worker</h6>
+                                    <p class="quote">I am commuting every weekday to go to my work. I am constantly frustrated by the inconvenience of using a physical Compass Card. It's frustrating to have to keep track of my balance manually, and I often find myself running out of funds at the worst possible time.</p>
+                                </div>
+                            </div>
+                            <div class="col-4-sm">
+                                <div class="img-box">
+                                    <img src="/images/persona-2.png" alt="emoji">
+                                </div>
+                                <div class="persona-info">
+                                    <h5 class="persona-title">JASON, 23</h5>
+                                    <h6 class="job gray">University Student</h6>
+                                    <p class="quote">I've been using the U-Pass since I started school, but requesting it manually through the web browser is a hassle. I often forget to request it on time and end up paying for transportation out of pocket, which is a financial burden.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-4-sm">
+                            <h2 class="sm-heading heading-p-16">User Journey Map</h2>
+                            <img id="scroll-section" class="col-12" src="/images/user-journey.png" alt="user journey map">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">03 IDEATION</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design Process</h3>
+                            <p class="p">To better understand how users interact with the app, I created a user flow. The flow focused on how users load their compass card and make payments through the app. By using the insights gained from the user journey map and user flow, I was able to create wireframes that included features designed to help users achieve their goals.</p>
+                        </div>
+                        <div class="padding-b-32 img-border col-12-lg col-12-md col-4-sm">
+                            <h2 class="sm-heading heading-p-16">User Flow</h2>
+                            <img id="scroll-section" class="col-12" src="/images/flowchart-compass.png" alt="user flow">
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-4-sm">
+                            <h2 class="sm-heading heading-p-16">Wireframe</h2>
+                            <img id="scroll-section" class="col-12" src="/images/wireframe-compass.png" alt="wireframe">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">04 DESIGN</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design System</h3>
+                            <p class="p">The overall design concept is minimal so that users can use the app without any visual distractions and can focus on the functionality in the app. I mainly used the TransLink’s colour scheme and its font-family for consistency in brand identity.</p>
+                        </div>
+                        <div class="padding-b-128 ui-system img-width col-12-lg col-12-md col-4-sm">
+                            <img class="col-12" src="/images/ui-compass1.png" alt="design system">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec5" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">05 VALIDATE</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">User Testing</h3>
+                            <p class="padding-b-32 p">I conducted unmoderated user testing with the app’s target users to uncover the issues that hinder users from achieving their goals. The overall user feedback was that they did not find any difficulty while completing the tasks.</p>
+                        </div>
+                        <div class="finding col-12-lg col-5-md col-4-sm">
+                            <div>
+                                <h2 class="h6 padding-b-32">Finding 1</h2>
+                                <p class="p">The user feedback suggests that the placement of the "load money" category in the Home screen feels awkward and out of place because it is separared from the primary card section. </p>
+                            </div>
+                            <div>
+                                <h2 class="h6 padding-b-32">Finding 2</h2>
+                                <p class="p">The feedback indicates that there should be a visual indicator or "Back" button available on the Register Your Card screen during the onboarding process.</p>
+                            </div>
+                            <div class="padding-b-128">
+                                <h2 class="h6 padding-b-32">Finding 3</h2>
+                                <p class="p">The user feedback suggests that the default payment method should be visually indicated with a check mark.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-width ui-system col-12-lg col-12-md col-4-sm">
+                            <img id="scroll-section" src="/images/compass-usertesting.png" alt="findings">
+                        </div> -->
+                        <!-- iteration -->
+                        <div class="iteration col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Iteration</h3>
+                            <p class="p">Based on the user feedback and my observations, I made iterations to the user interface to improve the overall user experience of the app.</p>
+                        </div>
+                        <!-- <div class="padding-b-32 change-img-left img-width">
+                            <img id="scroll-section" src="/images/compass-iteration.png" alt="iteration">
+                        </div>
+                        <div id="iteration-lists" class="compass-iteration heading-p-32">
+                            <h2 class="h5 heading-p-32">1. Increase the <span class="is-bold">Contrast</span> of the Icon</h2>
+                            <p class="padding-b-32 p">I increased the contrast of the icons in the bottom navigation to make them more visible to users.</p>
+                            <h2 class="h5 heading-p-32">2. Add <span class="is-bold">Tap Pay</span> to Categories</h2>
+                            <p class="p">I removed "Create Alert" from the main categories and added "Tap Pay" to the categories since "Tap Pay" is the feature that users would use the most.</p>
+                        </div> -->
+                        <div class="change-left heading-p-32">
+                            <h2 class="h5 padding-b-32 is-bold">1. Created process indicator </h2>
+                            <p class="p">I included a process indicator of the onboarding process to help users easily understand where they are in the onboarding process and how many steps are remaining.
+                            </p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width-80">
+                            <img id="scroll-section" src="/images/compass-iteration(indicator).png" alt="ui design">
+                        </div>
+                        <div class="change-left heading-p-32">
+                            <h2 class="h5 padding-b-32 is-bold">2. Rearranged the category</h2>
+                            <p class="p">I thought it would be beneficial to integrate the "Load Money" category seamlessly into the primary card section to help users easily identify and access the category without any confusion.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width-80">
+                            <img id="scroll-section" src="/images/compass-iteration(load).png" alt="ui design">
+                        </div>
+                        <div class="change-left heading-p-32">
+                            <h2 class="h5 padding-b-32 is-bold">3. Added check mark on the default payment</h2>
+                            <p class="p">By adding a check mark, which is a clear visual cue to users, users can easily identify the default payment method and have confidence in their selection during transaction.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width-80">
+                            <img id="scroll-section" src="/images/compass-iteration(check-mark).png" alt="ui design">
+                        </div>
+                        <div class="change-left heading-p-32">
+                            <h2 class="h5 padding-b-32 is-bold">4. Revised U-Pass screen</h2>
+                            <p class="p">I have revised the UI of the U-Pass request screen to provide an intuitive and user-friendly experience. The previous table format was not effective or intuitive for users.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width-80">
+                            <img id="scroll-section" src="/images/compass-iteration(upass).png" alt="ui design">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">06 FINAL DESIGN</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Hi-Fidelity<br> Prototype</h3>
+                            <p class="p padding-b-128">With the result of the user testing and the style guide, I finalized high-fidelity prototype. The final prototype shows a complete idea of ​​how the Compass card app will look like in the final result.</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- <div class="lazy final-prototype-compass bg-centre" data-bg="../images/prototype-compass.png"></div> -->
+                <div>
+                    <img class="lazy iteration padding-b-128 banner-img" src="../images/final-banner-compass-lazy.png" data-src="../images/final-banner-compass.png"alt="final prototype mockup image of compass card">
+                </div>
+                <div class="container">
+                    <!-- <div style="padding:54.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/816799483?h=c763266187&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Untitled"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/845095194?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Compass-Card"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <div class="grid">
+                        <div class="padding-t-32 iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                            <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/proto/RQTuDjznp8qcq9oUZ5yXNB/compass-card?type=design&node-id=697-3713&t=3zNj28NAvuqn0XuJ-1&scaling=scale-down&page-id=675%3A3006&starting-point-node-id=675%3A3368&mode=design">
+                                <div class="btn-txt">View Prototype</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section  class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">Reflection</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">What I Learned</h3>
+                        </div>
+                        <div class="finding col-12-lg col-5-md col-4-sm">
+                            <div id="takeaway-1">
+                                <h2 class="h6 padding-b-32 underline">Takeaway 1</h2>
+                                <p class="p">Since I was creating a new application for an existing service which the transit website is providing, I was initially inclined to reference the existing transit website too heavily for design decisions and solutions. However, I realized that the main goal of the project was not just to create a new product, but to create a better user experience through a new product and service.</p>
+                            </div>
+                            <div id="takeaway-2">
+                                <h2 class="h6 padding-b-32 underline">Takeaway 2</h2>
+                                <p class="p">During user testing, I also learned the value of providing users with room to discover the app's features on their own. By offering less direct test instructions, biases that could potentially skew the results would be minimized.</p>
+                            </div>
+                            <!-- <div id="takeaway-3" class="padding-b-128">
+                                <h2 class="h6 padding-b-32 underline">Takeaway 3</h2>
+                                <p class="p">As I worked on multiple features, I realized I neglected important details that users need for a good experience, such as filters for trip planning. Next time, I'll focus on each feature's user flow to ensure all necessary features are included for a seamless experience.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="next-project padding-b-128 col-12-lg col-12-md col-4-sm">
+                        <a href="hobbybuddy.html" class="is-flex cursor-outline">
+                            <h5 class="h5 next-project-title">Next Project</h5>
+                            <svg class="next-arrow" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid border-p-60 footer-wrapper">
+                <div class="footer-title-wrapper col-6-lg col-6-md col-4-sm">
+                    <h2 class="h3 contact-heading padding-b-32"><span class="is-light italic">/ </span>Get in touch!</h2>
+                </div>
+                <div class="footer-social padding-b-128">
+                    <ul class="h5 intro">
+                        <li class="cursor-outline"><a href="mailto:yoonin0813@gmail.com" target="_blank">Email</a></li>
+                        <li class="cursor-outline"><a href="https://www.linkedin.com/in/inhye-yoon-4878ba1a6/" target="_blank">LinkedIn</a></li>
+                        <li class="cursor-outline"><a href="https://dribbble.com/yoonin0813" target="_blank">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="p is-light">&copy;2023 Inhye Yoon</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="../js/elevator.min.js"></script>
+    <script src="../js/scrollbutton.js"></script>
+    <!-- <script src="../js/artifact.js"></script> -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/javascript.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+
+
+
+
+var lastLink = null;
+
+function setTab() {
+  $('.tab').each(function() {
+    var scrollPos = $(document).scrollTop();
+    var linkRef = $(this).attr("href");
+    var $target = $(linkRef);
+    
+    if ($target.length) {
+      var refPos = $target.position().top;
+      var refHeight = $target.height();
+      
+      if (refPos <= scrollPos && refPos + refHeight > scrollPos) {
+        // Run this only if the section has changed...
+        if (linkRef !== lastLink) {
+          // Update tab position:
+          $('.tab').removeClass("active-tab");
+          $(this).addClass("active-tab");
+          var tabPos = $(this).position();
+          var tabHeight = $(this).height();
+          $(".indicator-line").css({"top": tabPos.top, "height": tabHeight + "px"});
+          
+          // History and URL hash update:
+          history.pushState(null, null, linkRef);
+          
+          // Refresh control var:
+          lastLink = linkRef;
+        }
+      }
+    }
+  });
+}
+
+// Event handlers:
+$(document).ready(function() {
+  setTab();
+  $(window).on("scroll resize", setTab);
+});
+
+$('a[href^="#"]:not([href="#"])').click(function() {
+  var target = $($(this).attr("href"));
+
+  if (target.length) {
+    $("html, body").animate({
+      scrollTop: target.position().top + 1
+    }, 500);
+  }
+
+  return false;
+});
+
+    </script>
+</body>
+</html>

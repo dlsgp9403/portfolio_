@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inhye Yoon Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" size="16x16" type="image/x-icon" href="images/logo.svg">
+    <link rel="stylesheet" href="css/reset.css?v=1">
+    <link rel="stylesheet" href="css/main.css?v=1">
+    
+</head>
+<body>
+    <div class="cursor"></div>
+    <header class="header">
+        <div class="site-container" id="header">
+            <div class="mobile-nav-menu">
+                <a href="index.html">
+                    <img class="brand-logo" src="images/logo.svg" alt="brand logo">
+                </a>
+                <div class="menu-open">
+                    <a href="#" class="js-menu-open"><ion-icon name="menu-outline"></ion-icon></a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <div class="menu-close">
+                    <a href="#" class="js-menu-close"><ion-icon  name="close-outline"></ion-icon>
+                    </a>
+                </div>
+                <ul id="menu" class="nav-links">
+                    <li class="menu-item menu-active"><a href="target-discipline.html" class="nav-link cursor-outline">Work</a></li>
+                    <li class="menu-item"><a href="about.html" class="nav-link cursor-outline">About</a></li>
+                    <li class="menu-item"><a href="https://drive.google.com/file/d/115zDBvSzj9OVSPx1ku-cQYBhRURoMJBb/view?usp=sharing" class="nav-link cursor-outline" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="filter-nav" class="filter-section">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-7-lg col-7-md col-4-sm">
+                        <ul id="btn-container" class="h5 filter-menu">
+                            <li><a href="#" class="filter-btn active cursor-outline" onclick="filterSelection('all')">All</a> / <a href="#" class="filter-btn cursor-outline" onclick="filterSelection('uiux')">UIUX Design</a> /</li>
+                            <li><a href="#" class="filter-btn cursor-outline" onclick="filterSelection('development')">Web Development</a> / <a href="#"  class="filter-btn cursor-outline" onclick="filterSelection('graphic-design')"> Graphic Design</a> /</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="project-container uiux">
+                        <div class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm"></div>
+                        <div class="column">
+                            <div class="img-col">
+                                <div class="img-col-wrapper cursor-scale">
+                                    <a href="/projects/compass-card.html"><img src="images/compass-project-thumbnail-lazy.png" data-src="images/compass-project-thumbnail.png" class="lazy" alt="compass-card mockup"></a>
+                                </div>
+                            </div>
+                            <div class="txt-col">
+                                <div class="contents">
+                                    <h6 class="h4 project-name">Compass Card</h6>
+                                    <p class="h7 padding-b-32 gray target-area">UI/UX Design</p>
+                                    <p class="h7">Enhancing the transit experience with mobile compass card app</p>
+                                </div>
+                                <a class="btn cursor-outline" href="/projects/compass-card.html">
+                                    <div class="btn-txt">Read more</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container uiux">
+                        <div class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm"></div> 
+                        <div class="column">
+                            <div class="img-col">
+                                <div class="img-col-wrapper cursor-scale">
+                                    <a href="/projects/trip-planner.html"><img src="images/trip-thumbnail-lazy.png" data-src="images/trip-thumbnail.png" alt="trip planner mockup" class="lazy"></a>
+                                </div>
+                            </div>
+                            <div class="txt-col">
+                                <div class="contents">
+                                    <h6 class="h4">Trip Planner</h6>
+                                    <p class="h7 padding-b-32 gray target-area">UI/UX Design</p>
+                                    <p class="h7">Providing intuitive trip organization process with real-time collaboration feature</p>
+                                </div>
+                                <a class="btn cursor-outline" href="/projects/trip-planner.html">
+                                    <div class="btn-txt">Read more</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container graphic-design development">
+                        <div class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm"></div>
+                        <div class="column">
+                            <div class="img-col">
+                                <div class="img-col-wrapper cursor-scale">
+                                    <a href="/projects/phorest.html"><img src="/images/phorest-thumbnail-lazy.png"  data-src="/images/phorest-thumbnail.png" alt="phorest aframe mockup" class="lazy"></a>
+                                </div>
+                            </div>
+                            <div class="txt-col">
+                                <div class="contents">
+                                    <h6 class="h4">Phorest</h6>
+                                    <p class="h7 target-area padding-b-32 gray">Graphic Design, Web Development</p>
+                                    <p class="h7">Unique brand identity for fictional Vietnamese restaurant</p>
+                                </div>
+                                <a class="btn cursor-outline" href="/projects/phorest.html">
+                                    <div class="btn-txt">Read more</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container uiux">
+                        <div class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm"></div>
+                        <div class="column">
+                            <div class="img-col">
+                                <div class="img-col-wrapper cursor-scale">
+                                    <a href="/projects/blooming.html"><img src="images/blooming-thumbnail-lazy.png"  data-src="images/blooming-thumbnail.png" alt="blooming website mockup" class="lazy"></a>
+                                </div>
+                            </div>
+                            <div class="txt-col">
+                                <div class="contents">
+                                    <h6 class="h4">Blooming</h6>
+                                    <p class="h7 padding-b-32 gray target-area">UI Design</p>
+                                    <p class="h7">Flower E-commerce website providing user-friendly interface and purchase process</p>
+                                </div>
+                                <a class="btn cursor-outline" href="/projects/blooming.html">
+                                    <div class="btn-txt">Read more</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container uiux padding-b-128">
+                        <div class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm"></div>
+                        <div class="column">
+                            <div class="img-col">
+                                <div class="img-col-wrapper cursor-scale">
+                                    <a href="/projects/hobbybuddy.html"><img src="images/hobby-thumbnail-lazy.png"  data-src="images/hobby-thumbnail.png" alt="hobby buddy app mockup" class="lazy"></a>
+                                </div>
+                            </div>
+                            <div class="txt-col">
+                                <div class="contents">
+                                    <h6 class="h4">Hobby Buddy</h6>
+                                    <p class="h7 padding-b-32 gray target-area">UI/UX Design</p>
+                                    <p class="h7">Hobby Buddy helps users to efficiently and intuitively search for hobby tutors</p>
+                                </div>
+                                <a class="btn cursor-outline" href="/projects/hobbybuddy.html">
+                                    <div class="btn-txt">Read More</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid border-p-60 footer-wrapper">
+                <div class="footer-title-wrapper col-6-lg col-6-md col-4-sm">
+                    <h2 class="h3 contact-heading padding-b-32"><span class="is-light italic">/ </span>Get in touch!</h2>
+                </div>
+                <div class="footer-social padding-b-128">
+                    <ul class="h5 intro">
+                        <li class="cursor-outline"><a href="mailto:yoonin0813@gmail.com" target="_blank">Email</a></li>
+                        <li class="cursor-outline"><a href="https://www.linkedin.com/in/inhye-yoon-4878ba1a6/" target="_blank">LinkedIn</a></li>
+                        <li class="cursor-outline"><a href="https://dribbble.com/yoonin0813" target="_blank">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="p is-light">&copy;2023 Inhye Yoon</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src='js/filter.js'></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
+    

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Portfolio Cheatsheet</title>
+</head>
+<style>
+
+    body{
+        overflow: hidden;
+    }
+
+    /* .section-nav-container {
+        width: 144px;
+        float: right;
+        background-color: rgba(0, 0, 0, 0);
+        flex-direction: column;
+        margin-left: 0;
+        padding: 8px;
+        display: flex;
+        top: 120px;
+        right: 16px;
+        overflow: hidden;
+        position: sticky;
+        
+    } */
+
+
+
+
+    /* .section-nav-container {
+        
+        margin-right: 4rem;
+        float: right;
+        top: 120px;
+        right: 16px; 
+        align-items: start;
+    } */
+
+    /* .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    } */
+
+
+    .sidebar-nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+
+
+    .section-navv {
+        position: sticky;
+        flex-direction: column;
+    }
+
+    .section-navv ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .section-links {
+        margin-left: 0.8em;
+        line-height: 1.3em;
+    }
+
+    .section-navv ul .section-links {
+        margin-bottom: 0.3rem;
+    }
+
+
+    .section-navv ul .section-links a {
+        text-decoration: none;
+        font-family: var(--sans-serif);
+        font-size: 13px;
+    }
+
+    .section-navv ul .section-links a:hover {
+        text-decoration: underline;
+    }
+
+    .indicator {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #d2d2d7;
+    }
+
+    .indicator-line {
+        position: absolute;
+        width: 100%;
+        height: 1.5em;
+        top: 0;
+        left: 0;
+        background: #353535;
+        transition: cubic-bezier(.4,.95,.5,1.5) .5s;
+    }
+
+    .tab {
+        color: #6e6e73;
+    }
+
+    .active-tab {
+        color: #000000;
+    }
+
+    @media screen and (max-width: 920px){
+
+    header {
+        flex: 1 0 0;
+        top: 1em;
+        padding: 2em 0;
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        transform: translateY(-100%);
+        border-bottom: 1rem solid #353535;
+        transition: ease .4s;
+    }
+
+    .section-nav-container {
+        position: fixed;
+        float: right;
+        margin-right: 0;
+        top: 15px;
+        right: 16px; 
+    }
+
+/* 
+    .section-nav-container:hover {
+        top: 0;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    } */
+
+
+    /* .section-nav-container:hover {
+    top: 0;
+    transform: translateY(0%);
+    transition: transform 0.4s ease;
+  } */
+
+  .section-nav-container.toggled {
+    top: 0;
+    transform: translateY(0%);
+    transition: transform 0.4s ease;
+  }
+
+  .section-nav-container.toggled .indicator-line {
+    height: 0;
+  }
+
+  .section-nav-container.toggled .tab {
+    color: #000000;
+  }
+
+  .section-nav-container.toggled .tab:hover {
+    text-decoration: none;
+  }
+}
+
+</style>
+<body>
+    
+    <!-- <div class="sidebar">
+        <div class="section-nav is-flex">
+            <div class="section-link" data-tooltip="Analyze"><a href="#analyze"><i class="bi bi-circle"></i></a></div>
+            <div class="section-link" data-tooltip="Ideation"><a href="#ideation"><i class="bi bi-circle"></i></a></div>
+            <div class="section-link" data-tooltip="Design"><a href="#design"><i class="bi bi-circle"></i></a></div>
+            <div class="section-link" data-tooltip="Validate"><a href="#final"><i class="bi bi-circle"></i></a></div>
+        </div>
+    </div> -->
+    <main>
+        <header class="section-nav-container">
+            <nav class="section-navv">
+              <ul>
+                <li class="section-links"><a href="#sec1" class="tab">Research</a></li>
+                <li class="section-links"><a href="#sec2" class="tab">Analyze</a></li>
+                <li class="section-links"><a href="#sec3" class="tab">Ideation</a></li>
+                <li class="section-links"><a href="#sec4" class="tab">Design</a></li>
+                <li class="section-links"><a href="#sec5" class="tab">Validate</a></li>
+              </ul>
+              <div class="indicator">
+                <div class="indicator-line"></div>
+              </div>
+            </nav>
+        </header>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                
+                    <div class="col-6-lg">
+                        <h1 class="h1">Heading</h1>
+                        <h2 class="h2">Heading</h2>
+                        <h3 class="h3">Heading</h3>
+                        <h4 class="h4">Heading</h4>
+                        <h5 class="h5">Heading</h5>
+                        <h6 class="h6">Heading</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                <!-- Homepage introduction  -->
+                    <div class="col-6-lg col-4-sm">
+                        <div class="name is-flex">
+                            <h1 class="h1">Inhye Yoon</h1>
+                            <h5 class="h5 pronoun">/in-hey/</h5>
+                        </div>
+                        <p class="h5 intro">A multidisciplinary designer <span class="green-txt">@Vancouver</span> with a focus on UI/UX design, driven to expand my knowledge and gather inspiring ideas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec1" class="section">
+            <div class="container">
+                <div class="grid overview">
+                <!-- project introduction -->
+                    <div class="project-intro">
+                        <h4 class="h4">Overview</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, qui nesciunt, architecto excepturi autem ullam fugiat molestiae tempore esse sunt debitis ab cupiditate necessitatibus laboriosam voluptas officia inventore culpa voluptatem?</p> 
+                    </div>
+                    <ul class="project-info">
+                        <li>
+                            <h6 class="info-title">Role</h6>
+                            <p>UI/UX designer</p>
+                            <p>Visual designer</p>
+                        </li>
+                        <li>
+                            <h6 class="info-title">Duration</h6>
+                            <p>3 weeks</p>
+                        </li>
+                        <li>
+                            <h6 class="info-title">Area</h6>
+                            <p>UI/UX design</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="sec2" class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-7-lg col-4-sm">
+                        <!-- problem statement -->
+                        <h6 class="subheading-2">PROBLEM</h6>
+                        <h5 class="h5 project-goal">Creating an online flower shopping website that offers intuitive and user-friendly shopping experience</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec3" class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-7-lg col-4-sm">
+                        <!-- section statement -->
+                        <h6 class="subheading-2">ANALYSIS</h6>
+                        <h4 class="h4 section-title">Defining Target Audience</h4>
+                        <p class="description">I defined the potential target user groups of the restaurant. Since the restaurant is targeting every generations.
+                        I created 3 different age group with different needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec4" class="section">
+            <div class="container">
+                <div class="grid">
+                <!-- solution -->
+                    <div class="col-4-lg col-4-sm">
+                        <h5 class="h5">Solution</h5>
+                        <p class="solution-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, qui nesciunt, architecto excepturi autem ullam fugiat molestiae tempore esse sunt debitis ab cupiditate necessitatibus laboriosam voluptas officia inventore culpa voluptatem?</p>
+                    </div>
+                    <!-- discipline box -->
+                    <div class="discipline-box col-10-lg">
+                        <div>
+                            <div>
+                                <a class="btn" href="#">
+                                    <div class="btn-txt">View All</div>
+                                    <div class="btn-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                      </svg>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="h4">Compass Card</h4>
+                                <p class="discipline-box-desc">Enhancing the transit experience with mobile compass card app</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="sec5">
+            <div>
+                <a class="btn" href="#">
+                    <div class="btn-txt">View All</div>
+                    <div class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid">
+                <div class="contact">
+                    <h6 class="h7 italic">/Contact/</h6>
+                    <a class="h7" href="mailto:yoonin0813@gmail.com">yoonin0813@gmail.com</a>
+                </div>
+                <div class="social">
+                    <h6 class="h7 italic">/Social/</h6>
+                    <a class="h7" href="#">LinkedIn</a>
+                </div>
+                <div class="h7 copyright">&copy;2023 Inhye Yoon</div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+
+       
+ 
+
+
+        $(function(){
+  $('a[href^="#"]:not([href="#"])').click(function(){
+    $("html, body").animate({
+      scrollTop: $($(this).attr("href")).position().top + 1
+    }, 500);
+    return false;
+  });
+});
+
+//Nav Scroll snippet:
+var lastLink;
+
+function setTab() {
+  $('.tab').each(function() {
+    var scrollPos = $(document).scrollTop();
+    var linkRef = $(this).attr("href");
+    var refPos = $(linkRef).position().top;
+    var refHeight = $(linkRef).height();
+    
+    if (refPos <= scrollPos && refPos + refHeight > scrollPos) {
+      // Run this only if the section has changed...
+      if (linkRef != lastLink) {
+        // Update tab position:
+        $('.tab').removeClass("active-tab");
+        $(this).addClass("active-tab");
+        var tabPos = $(this).position();
+        var tabHeight = $(this).height();
+        $(".indicator-line").css({"top": tabPos.top, "height": tabHeight + "px"});
+        
+        // History and URL hash update:
+        history.pushState(null, null, linkRef);
+        
+        // Refresh control var:
+        lastLink = linkRef;
+      }
+    }
+  });
+}
+
+// Event handlers:
+$(document).ready(function() {
+  setTab();
+  $(window).on("scroll resize", setTab);
+});
+
+
+    </script>
+</body>
+</html>

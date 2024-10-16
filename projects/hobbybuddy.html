@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Buddy</title>
+    <link rel="icon" size="16x16" type="image/x-icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body class="overflow">
+    <div class="cursor"></div>
+    <button class="elevator-button" title="Go to top" id="myBtn">
+        <svg class="scroll-top-btn cursor-outline" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path>Back To Top</svg>
+    </button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"> -->
+
+    <header class="header">
+        <div class="site-container">
+            <div class="mobile-nav-menu">
+                <a href="/index.html">
+                    <img class="brand-logo" src="/images/logo.svg" alt="brand logo">
+                </a>
+                <div class="menu-open">
+                    <a href="#" class="js-menu-open"><ion-icon name="menu-outline"></ion-icon></a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <div class="menu-close">
+                    <a href="#" class="js-menu-close"><ion-icon  name="close-outline"></ion-icon>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="menu-item"><a href="/target-discipline.html" class="nav-link cursor-outline">Work</a></li>
+                    <li class="menu-item"><a href="/about.html" class="nav-link cursor-outline">About</a></li>
+                    <li class="menu-item"><a href="https://drive.google.com/file/d/115zDBvSzj9OVSPx1ku-cQYBhRURoMJBb/view?usp=sharing" class="nav-link cursor-outline" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner-section">
+            <div class="container">
+                <div class="grid border-p-60 project-title">
+                    <div class="col-7-lg col-7-md col-4-sm">
+                        <h1 id="artifact-intro-title" class="h3">Hobby Buddy</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="lazy banner-phorest bg-centre" data-bg="../images/banner-phorest-1.png"></div> -->
+            <div id="artifact-banner">
+                <img class="lazy banner-img" src="../images/hobby-buddy-banner-lazy.png" data-src="../images/hobby-buddy-banner.png" alt="hobby buddy banner image">
+            </div>
+        </section>
+        <div class="sidebar-nav">
+            <nav class="section-navv">
+                <ul>
+                <li class="section-links"><a href="#sec1" class="tab">Research</a></li>
+                <li class="section-links"><a href="#sec2" class="tab">Analyze</a></li>
+                <li class="section-links"><a href="#sec3" class="tab">Ideation</a></li>
+                <li class="section-links"><a href="#sec4" class="tab">Design</a></li>
+                <li class="section-links"><a href="#sec5" class="tab">Validate</a></li>
+                </ul>
+                <div class="indicator">
+                <div class="indicator-line"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+            <section class="overview-section">
+                <div class="container">
+                    <div class="grid">
+                        <div class="overview-col col-7-lg col-7-md col-4-sm">
+                            <h2 class="h4 heading-p-32">Overview</h2>
+                            <p class="p">The goal of this project is to create a user-friendly app that connects people looking for hobby tutors. The Hobby Buddy app makes it easier for users to find tutors, discover new hobbies, and learn together in a supportive community.</p>
+                        </div>
+                        <div class="col-detail-sm">
+                            <ul class="project-detail">
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Role</h5>
+                                    <p>UX/UI Designer</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Duration</h5>
+                                    <p>1 month</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Tool</h5>
+                                    <p>Figma</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                            <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/file/My1Izv2o8KB7hBi6eOpnXb/Hobby-Buddy-Prototype?type=design&node-id=0%3A1&mode=design&t=uoQ9o5Ty6zSvaCrd-1">
+                                <div class="btn-txt">View Final Prototype</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-6-sm sm-heading border-p-sm">HMW Statement</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-6-sm">
+                            <p id="scroll-section" class="h5 heading-p-32 p-statement">How might we create a platform that enables users to <span class="hobby-brand-color">efficiently</span> and <span class="hobby-brand-color">effortlessly</span> search for hobby tutors based on their preferences? </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec1" class="section">
+                <div class="container">
+                    <div class="grid padding-b-128">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">01 RESEARCH</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">User Research<br>& Insights</h3>
+                            <p class="p">The goal of an online user survey is to find out the reason that people hesitate to find tutors online and the difficulties to find tutors.  45.2% of participants were in the age group of 15-30, while 35.5% of participants were in the age group of 30-45. </p>
+                        </div>
+                    </div>
+                    <div class="padding-b-128 ui-system img-width col-12-lg col-12-md col-4-sm">
+                        <img id="scroll-section" class="col-12" src="/images/hobby-buddy-research.png" alt="research insights">
+                    </div>
+                </div>
+            </section>
+            <section id="sec2" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">02 ANAYLZE</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Defining<br>Target Audience</h3>
+                            <p class="p">Through my research, I was able to identify the ultimate goals that users might want to achieve using the app. I created a user persona based on the research insights. Additionally, by understanding their pain points, I was able to prioritize the contents and features based on their importance and needs.</p>
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-4-sm">
+                            <h2 class="sm-heading heading-p-16">User Persona</h2>
+                            <img id="scroll-section" class="col-12" src="/images/hobby-persona-min.png" alt="user persona">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">03 IDEATION</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design Process</h3>
+                            <p class="p">I began by sketching the screens of potential app designs for Hobby Buddy to ensure that all the required features are well-placed within each screen. Then, I created a wireframe that includes the user flow, demonstrating how users can interact with the UI elements and navigate through each screen intuitively.</p>
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-4-sm">
+                            <h2 class="sm-heading heading-p-16">Wireframe</h2>
+                            <img id="scroll-section" class="col-12" src="/images/hobby-userflow.png" alt="wireframe">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">04 DESIGN</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design System</h3>
+                            <p class="p">I also challenged myself to create a dark mode theme for an improved user experience. I developed two separate UI components, one for light mode and the other for dark mode. The overall design concept is clean and friendly. To maintain a consistent and clean appearance, I opted for a single font and primary color throughout the UI.</p>
+                        </div>
+                        <div class="padding-b-128 ui-system img-width col-12-lg col-12-md col-4-sm">
+                            <img class="col-12" src="/images/uisystem_hobby.png" alt="design system">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec5" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">05 Validate</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">User Testing</h3>
+                            <p class="p">I used the Maze user testing platform to conduct unmoderated user testing to test out my interactive prototype. It helped me to define the pain points when users interact with the app.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width">
+                            <img id="scroll-section" src="/images/userfeedback.png" alt="ui design">
+                        </div>
+                        <!-- iteration -->
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Iteration</h3>
+                            <p class="p">Based on the user feedbacks and my observations. I made iteration to user interface to improve the overall user-experience of an app.</p>
+                        </div>
+                        <div class="change-left-top heading-p-32">
+                            <h2 class="h5 padding-b-32">1.<span class="is-bold">Improved Layout of <span class="is-bold">Search Filter</span></h2>
+                            <p class="p">I combined the 'Sort By' and 'Filters' sections, integrated them within the search bar, and added a collapse menu for the filters, making it more user-friendly.</p>
+                        </div>
+                        <div class="padding-b-128 img-width ui-system col-12-lg col-12-md col-4-sm">
+                            <img id="scroll-section" src="/images/hobby-iteration(filter).png" alt="ui design">
+                        </div>
+                        <div class="change-left change-centre heading-p-32">
+                            <h2 class="h5 padding-b-32">2. Changed the Chat Button <span class="is-bold">Color</span></h2>
+                            <p class="p">Some users mistakenly thought the gray color meant the chat function was disabled. The updated color makes the chat button stand out, clearly indicating its active state.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width-80">
+                            <img id="scroll-section" src="/images/hobby-iteration(btn).png" alt="ui design">
+                        </div>
+                        <div class="padding-b-32 change-img-left img-width-80">
+                            <img id="scroll-section" src="/images/hobby-iteration(scrollbtn).png" alt="ui design">
+                        </div>
+                        <div class="change-right change-centre heading-p-32">
+                            <h2 class="h5 padding-b-32"> 3. Added <span class="is-bold">Scroll-to-Top Button</span></h2>
+                            <p class="p">In order to enhance user experience and improve navigation on the app, a scroll-to-top button has been added to the long listings of tutors. The button allows users to quickly return to the top of the page with a single click.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">06 FINAL DESIGN</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Hi-Fidelity<br> Prototype</h3>
+                            <p class="p padding-b-128">With the result of the user testing and the style guide, I finalized high-fidelity prototype. The final prototype shows a complete idea of ​​how the Hobby Buddy app will look like in the final result.</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- <div class="lazy final-prototype-compass bg-centre" data-bg="../images/prototype-compass.png"></div> -->
+                <div>
+                    <img class="lazy iteration padding-b-128 banner-img" src="../images/final-prototype-hobby-lazy.png" data-src="../images/final-prototype-hobby.png"alt="final prototype mockup image of compass card">
+                </div>
+                <div class="grid">
+                    <div class="iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                        <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/file/My1Izv2o8KB7hBi6eOpnXb/Hobby-Buddy-Prototype?type=design&node-id=0%3A1&mode=design&t=uoQ9o5Ty6zSvaCrd-1">
+                            <div class="btn-txt">View Prototype</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="grid">
+                    <!-- <div class="padding-b-32 change-img-left img-width">
+                        <img id="scroll-section" src="/images/hobby-feature(filter).png" alt="ui design">
+                    </div>
+                    <div class="change-right change-centre heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 1</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Search Filters</h2>
+                        <p class="p">Advanced search filters to enhance the user experience and improve the efficiency of finding suitable tutors based on subject, availability, price range, and other relevant criteria.</p>
+                    </div>
+                    <div class="change-left change-centre heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 2</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Reviews & Rating Sections</h2>
+                        <p class="p">Display average ratings and individual reviews to help students make informed decisions when selecting a tutor and share their learning experiences.</p>
+                    </div>
+                    <div class="padding-b-32 change-img-right img-width">
+                        <img id="scroll-section" src="/images/hobby-feature(review).png" alt="ui design">
+                    </div>
+                    <div class="padding-b-32 change-img-left img-width">
+                        <img id="scroll-section" src="/images/hobby-feature(chat).png" alt="ui design">
+                    </div>
+                    <div class="change-right change-centre heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 3</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Real-time Chat with Tutors</h2>
+                        <p class="p">Offers seamless communication between students and tutors, allowding for personalized guidance and feedback. </p>
+                    </div> -->
+                    <!--  -->
+                    <div class="change-left heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 1</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Search Filters</h2>
+                        <p class="p">Advanced search filters to enhance the user experience and improve the efficiency of finding suitable tutors based on subject, availability, price range, and other relevant criteria.</p>
+                    </div>
+                    <div class="padding-b-32 change-img-right img-width-80">
+                        <img id="scroll-section" src="/images/hobby-feature(filter).png" alt="ui design">
+                    </div>
+                    <div class="change-left heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 2</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Reviews & Rating Sections</h2>
+                        <p class="p">Display average ratings and individual reviews to help students make informed decisions when selecting a tutor and share their learning experiences.</p>
+                    </div>
+                    <div class="padding-b-32 change-img-right img-width-80">
+                        <img id="scroll-section" src="/images/hobby-feature(review).png" alt="ui design">
+                    </div>
+                    <div class="change-left heading-p-32">
+                        <h3 class="sm-heading is-blue">Solution 3</h3>
+                        <h2 class="h5 padding-b-32 is-bold">Real-time Chat with Tutors</h2>
+                        <p class="p">Offers seamless communication between students and tutors, allowing for personalized guidance and feedback. </p>
+                    </div>
+                    <div class="padding-b-32 change-img-right img-width-80">
+                        <img id="scroll-section" src="/images/hobby-feature(chat).png" alt="ui design">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="next-project padding-b-128 col-12-lg col-12-md col-4-sm">
+                        <a href="trip-planner.html" class="is-flex cursor-outline">
+                            <h5 class="h5 next-project-title">Next Project</h5>
+                            <svg class="next-arrow" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid border-p-60 footer-wrapper">
+                <div class="footer-title-wrapper col-6-lg col-6-md col-4-sm">
+                    <h2 class="h3 contact-heading padding-b-32"><span class="is-light italic">/ </span>Get in touch!</h2>
+                </div>
+                <div class="footer-social padding-b-128">
+                    <ul class="h5 intro">
+                        <li class="cursor-outline"><a href="mailto:yoonin0813@gmail.com" target="_blank">Email</a></li>
+                        <li class="cursor-outline"><a href="https://www.linkedin.com/in/inhye-yoon-4878ba1a6/" target="_blank">LinkedIn</a></li>
+                        <li class="cursor-outline"><a href="https://dribbble.com/yoonin0813" target="_blank">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="p is-light">&copy;2023 Inhye Yoon</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="../js/elevator.min.js"></script>
+    <!-- <script src="../js/artifact.js"></script> -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/scrollbutton.js"></script>
+    <script src="../js/javascript.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+        //Nav Scroll snippet:
+        var lastLink;
+
+function setTab() {
+  $('.tab').each(function() {
+    var scrollPos = $(document).scrollTop();
+    var linkRef = $(this).attr("href");
+    var refPos = $(linkRef).position().top;
+    var refHeight = $(linkRef).height();
+    
+    if (refPos <= scrollPos && refPos + refHeight > scrollPos) {
+      // Run this only if the section has changed...
+      if (linkRef != lastLink) {
+        // Update tab position:
+        $('.tab').removeClass("active-tab");
+        $(this).addClass("active-tab");
+        var tabPos = $(this).position();
+        var tabHeight = $(this).height();
+        $(".indicator-line").css({"top": tabPos.top, "height": tabHeight + "px"});
+        
+        // History and URL hash update:
+        history.pushState(null, null, linkRef);
+        
+        // Refresh control var:
+        lastLink = linkRef;
+      }
+    }
+  });
+}
+
+// Event handlers:
+$(document).ready(function() {
+  setTab();
+  $(window).on("scroll resize", setTab);
+});
+
+$('a[href^="#"]:not([href="#"])').click(function() {
+  var target = $($(this).attr("href"));
+
+  if (target.length) {
+    $("html, body").animate({
+      scrollTop: target.position().top + 1
+    }, 500);
+  }
+
+  return false;
+});
+
+
+
+
+</script>
+</body>
+</html>

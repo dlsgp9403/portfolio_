@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    <link rel="icon" size="16x16" type="image/x-icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body class="overflow">
+    <div class="cursor"></div>
+    <button class="elevator-button" title="Go to top" id="myBtn">
+        <svg class="scroll-top-btn cursor-outline" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path>Back To Top</svg>
+    </button>
+    <header class="header">
+        <div class="site-container">
+            <div class="mobile-nav-menu">
+                <a href="/index.html">
+                    <img class="brand-logo" src="/images/logo.svg" alt="brand logo">
+                </a>
+                <div class="menu-open">
+                    <a href="#" class="js-menu-open"><ion-icon name="menu-outline"></ion-icon></a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <div class="menu-close">
+                    <a href="#" class="js-menu-close"><ion-icon  name="close-outline"></ion-icon>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="menu-item"><a href="/target-discipline.html" class="nav-link cursor-outline">Work</a></li>
+                    <li class="menu-item"><a href="/about.html" class="nav-link cursor-outline">About</a></li>
+                    <li class="menu-item"><a href="https://drive.google.com/file/d/115zDBvSzj9OVSPx1ku-cQYBhRURoMJBb/view?usp=sharingz" class="nav-link cursor-outline" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner-section">
+            <div class="container">
+                <div class="grid border-p-60 project-title">
+                    <div class="col-7-lg col-7-md col-4-sm">
+                        <h1 id="artifact-intro-title" class="h3">Trip Planner</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="lazy main-banner-trip bg-centre" data-bg="../images/banner-trip-planner.png"></div> -->
+            <div id="artifact-banner">
+                <img class="lazy banner-img" src="../images/banner-trip-planner-lazy.png" data-src="../images/banner-trip-planner.png" alt="trip planner banner">
+            </div>
+        </section>
+        <div class="sidebar-nav">
+            <nav class="section-navv">
+                <ul>
+                <!-- <li class="section-links"><a href="#sec1" class="tab">Research</a></li> -->
+                <li class="section-links"><a href="#sec2" class="tab">Analyze</a></li>
+                <li class="section-links"><a href="#sec3" class="tab">Ideation</a></li>
+                <li class="section-links"><a href="#sec4" class="tab">Design</a></li>
+                <li class="section-links"><a href="#sec5" class="tab">Validate</a></li>
+                </ul>
+                <div class="indicator">
+                <div class="indicator-line"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+            <section class="overview-section">
+                <div class="container">
+                    <div class="grid">
+                        <div class="overview-col col-7-lg col-7-md col-4-sm">
+                            <h2 class="h4 heading-p-32">Overview</h2>
+                            <p class="p">The Trip Planner app is a travel organization tool designed to simplify the travel planning process for users by managing all trip details, such as reservations and budget plans, itineraries, and packing lists. It provides real-time collaboration with travel mates for easy plan sharing and coordination, and offers a smooth and organized travel experience with a user-friendly interface and intuitive design.</p>
+                        </div>
+                        <div class="col-detail-sm">
+                            <ul class="project-detail">
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Role</h5>
+                                    <p>UI/UX Designer</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Duration</h5>
+                                    <p>3 Weeks</p>
+                                </li>
+                                <li>
+                                    <h5 class="is-bold sm-heading heading-p-16">Tools</h5>
+                                    <p>Figma</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                            <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/proto/lAOza1uf8oqwDMk5PDaINu/Trip-Planner-Prototype?node-id=217-1182&scaling=scale-down&page-id=0%3A1&starting-point-node-id=217%3A1201&show-proto-sidebar=1">
+                                <div class="btn-txt">View Final Prototype</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">Project Goal</h2>
+                        <div class="padding-b-128 col-7-lg col-9-md col-4-sm">
+                            <p id="scroll-section" class="h5 heading-p-32">Creating a <span class="is-purple">travel organization</span> mobile application that allows users to collaborate with their travel mates easily and intuitively</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec2" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-6-sm sm-heading border-p-sm">Analyze</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Defining<br>Target Audience</h3>
+                            <p class="p">By defining a potential target audience for the Trip Planner app and creating user personas with their goals and needs, I was able to determine the main features and design decisions for the app. Understanding the needs of our users allowed us to create an app that is tailored to their specific requirements, ensuring a user-friendly and intuitive experience.</p>
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-6-sm">
+                            <h2 class="sm-heading heading-p-16">User Persona</h2>
+                            <img id="scroll-section" class="col-12" src="/images/user-persona-trip.png" alt="user persona">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-6-sm sm-heading border-p-sm">Ideation</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design Process</h3>
+                            <p class="p">I created a user flow to understand how users interact with the app. User flow is mainly focused on the creating Wishlist process. User flow takes users from their entry point through a set of steps such as creating a new trip and adding Wishlist items toward a successful outcome and final action.</p>
+                        </div>
+                        <div class="padding-b-32 img-border col-12-lg col-12-md col-6-sm">
+                            <h2 class="sm-heading heading-p-16">User Flow</h2>
+                            <img id="scroll-section" class="col-12" src="/images/user-flow-trip.png" alt="user flow chart">
+                        </div>
+                        <div class="img-border padding-b-128 col-12-lg col-12-md col-6-sm">
+                            <h2 class="sm-heading heading-p-16">Wireframe</h2>
+                            <img id="scroll-section" class="col-12" src="/images/wireframe-trip.png" alt="wireframe">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-6-sm sm-heading border-p-sm">Design</h2>
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Design System</h3>
+                            <p class="p">I was inspired by a clean and minimalistic design with a friendly typeface. I decided to use a bluish-purple colour scheme as a main theme colour.</p>
+                        </div>
+                        <div class="padding-b-128 ui-system img-width col-12-lg col-12-md col-6-sm">
+                            <img class="col-12" src="/images/design system-trip.png" alt="design system">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec5" class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">Validate</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">User Testing</h3>
+                            <p class="p">I used the Maze user testing platform to conduct unmoderated user testing to test out my interactive prototype. My goal of this user testing was to test if users were able to create a custom trip page and add their plans easily.</p>
+                        </div>
+                        <div class="finding col-12-lg col-5-md col-4-sm">
+                            <div>
+                                <h2 class="h6 padding-b-32"><mark>Finding 1</mark></h2>
+                                <p class="p">When adding an item to Wishlist, people tend to click the photo or text area to add an item, even though there is an add button icon.</p>
+                            </div>
+                            <div>
+                                <h2 class="h6 padding-b-32"><mark>Finding 2</mark></h2>
+                                <p class="p">2 testers mentioned that there are too many actions require to reach the end-goal when they are creating a trip page.</p>
+                            </div>
+                            <div class="padding-b-128">
+                                <h2 class="h6 padding-b-32"><mark>Finding 3</mark></h2>
+                                <p class="p">High misclick rates occured during the task 2.</p>
+                            </div>
+                        </div>
+                        <!-- iteration -->
+                        <div class="padding-b-128 col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Iteration</h3>
+                            <p class="p">Based on the user feedbacks and my observations. I made iteration to user interface to improve the overall user-experience of an app.</p>
+                        </div>
+                        <div class="change-left-top heading-p-32">
+                            <h2 class="h5 padding-b-32">1.<span class="is-bold">Break down</span> the task into smaller steps.</h2>
+                            <p class="p">I created additional pages rather than showing all of the tasks on one page so that users can focus on one task at a time. </p>
+                        </div>
+                        <div class="padding-b-128 img-width ui-system col-12-lg col-12-md col-4-sm">
+                            <img id="scroll-section" src="/images/iteration-trip-1.png" alt="ui design">
+                        </div>
+                        <div class="change-left change-centre heading-p-32">
+                            <h2 class="h5 padding-b-32">2. <span class="is-bold">Change the UI </span>of Add Wishlist Page. </h2>
+                            <p class="p">I created a card UI for Wishlist items and make it horizontally scrollable to show more items to browse. I also changed the icon to heart icon to make it more intuitive.</p>
+                        </div>
+                        <div class="padding-b-32 change-img-right img-width">
+                            <img id="scroll-section" src="/images/iteration-trip-2.png" alt="ui design">
+                        </div>
+                        <div class="padding-b-32 change-img-left img-width">
+                            <img id="scroll-section" src="/images/iteration-trip-3.png" alt="ui design">
+                        </div>
+                        <div class="change-right change-centre heading-p-32">
+                            <h2 class="h5 padding-b-32"> 3. <span class="is-bold">Reduce the size</span> of Button.</h2>
+                            <p class="p">Categories and Add New button take up much spaces and distract users from completing the main goals. I reduce the size of categories and placed the add button at the bottom to make it easier for users to tap. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">FINAL DESIGN</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">Hi-Fidelity <br>Prototype</h3>
+                            <p class="p padding-b-128">With the result of the user testing and the style guide, I finalized high-fidelity prototype. The final prototype shows a complete idea of ​​how the Trip Planner app will look like in the final result.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="lazy banner-trip-planner bg-centre" data-bg="../images/prototype-trip-planner.png"></div> -->
+                <div>
+                    <img class="lazy iteration padding-b-128 banner-img" src="../images/prototype-trip-planner-lazy.png" data-src="../images/prototype-trip-planner.png"alt="final prototype mockup image of trip planner">
+                </div>
+                <div class="container">
+                    <div>
+                        <div style="padding:46.46% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/816796896?h=820e4a99bb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Trip Planner-1.mov"></iframe>
+                    </div>
+                    <div class="grid">
+                        <div class="padding-t-32 iteration padding-b-128 col-12-lg col-12-md col-4-sm final-btn-container">
+                            <a class="btn cursor-outline" target="_blank" href="https://www.figma.com/proto/lAOza1uf8oqwDMk5PDaINu/Trip-Planner-Prototype?node-id=217-1182&scaling=scale-down&page-id=0%3A1&starting-point-node-id=217%3A1201&show-proto-sidebar=1">
+                                <div class="btn-txt">View Prototype</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="grid">
+                        <h2 class="col-12-lg col-12-md col-4-sm sm-heading border-p-sm">Reflection</h2>
+                        <div class="col-7-lg col-7-md col-4-sm">
+                            <h3 class="h3 heading-p-48">What I Learned</h3>
+                        </div>
+                        <div class="finding col-12-lg col-5-md col-4-sm">
+                            <div>
+                                <h2 class="h6 padding-b-32 underline">Takeaway 1</h2>
+                                <p class="p">I learned that assumptions can be dangerous in the design process, as they can lead to design decisions that don't align with the actual user needs. Without user research, I had to make assumptions about the users, which could have impacted the final design. In the future, I plan to ensure that user research is incorporated into the design process to avoid making assumptions and create a more effective and user-centered design.</p>
+                            </div>
+                            <div class="padding-b-128">
+                                <h2 class="h6 padding-b-32 underline">Takeaway 2</h2>
+                                <p class="p">I learned the importance of avoiding overwhelming users with too many tasks on a single screen. I discovered that reducing the number of steps or breaking them down into smaller tasks can help users feel like they're able to achieve their goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="grid">
+                    <div class="next-project padding-b-128 col-12-lg col-12-md col-4-sm">
+                        <a href="blooming.html" class="is-flex cursor-outline">
+                            <h5 class="h5 next-project-title">Next Project</h5>
+                            <svg class="next-arrow" viewBox="0 0 37 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-hero__arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 30.1187L19.1031 49L0.999999 30.1393L2.16016 29.0306L18.2629 45.8063L18.2629 0.999999L19.8696 0.999999L19.8696 45.7376L34.8017 29.0523L36 30.1187Z" fill="black" stroke="black" stroke-width="0.75"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid border-p-60 footer-wrapper">
+                <div class="footer-title-wrapper col-6-lg col-6-md col-4-sm">
+                    <h2 class="h3 contact-heading padding-b-32"><span class="is-light italic">/ </span>Get in touch!</h2>
+                </div>
+                <div class="footer-social padding-b-128">
+                    <ul class="h5 intro">
+                        <li class="cursor-outline"><a href="mailto:yoonin0813@gmail.com" target="_blank">Email</a></li>
+                        <li class="cursor-outline"><a href="https://www.linkedin.com/in/inhye-yoon-4878ba1a6/" target="_blank">LinkedIn</a></li>
+                        <li class="cursor-outline"><a href="https://dribbble.com/yoonin0813" target="_blank">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="p is-light">&copy;2023 Inhye Yoon</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="../js/elevator.min.js"></script>
+    <script src="../js/scrollbutton.js"></script>
+    <!-- <script src="../js/artifact.js"></script> -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/javascript.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+
+
+
+
+        var lastLink = null;
+        
+        function setTab() {
+          $('.tab').each(function() {
+            var scrollPos = $(document).scrollTop();
+            var linkRef = $(this).attr("href");
+            var $target = $(linkRef);
+            
+            if ($target.length) {
+              var refPos = $target.position().top;
+              var refHeight = $target.height();
+              
+              if (refPos <= scrollPos && refPos + refHeight > scrollPos) {
+                // Run this only if the section has changed...
+                if (linkRef !== lastLink) {
+                  // Update tab position:
+                  $('.tab').removeClass("active-tab");
+                  $(this).addClass("active-tab");
+                  var tabPos = $(this).position();
+                  var tabHeight = $(this).height();
+                  $(".indicator-line").css({"top": tabPos.top, "height": tabHeight + "px"});
+                  
+                  // History and URL hash update:
+                  history.pushState(null, null, linkRef);
+                  
+                  // Refresh control var:
+                  lastLink = linkRef;
+                }
+              }
+            }
+          });
+        }
+        
+        // Event handlers:
+        $(document).ready(function() {
+          setTab();
+          $(window).on("scroll resize", setTab);
+        });
+        
+        $('a[href^="#"]:not([href="#"])').click(function() {
+          var target = $($(this).attr("href"));
+        
+          if (target.length) {
+            $("html, body").animate({
+              scrollTop: target.position().top + 1
+            }, 500);
+          }
+        
+          return false;
+        });
+        
+</script>
+</body>
+</html>
